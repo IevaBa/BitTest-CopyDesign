@@ -1,0 +1,87 @@
+* {
+  margin: 0rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h2,
+p {
+  font-family: Arial, Helvetica;
+  text-align: center;
+}
+h2 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: rgba(224, 94, 70, 255);
+  word-spacing: 100vw;
+  /* perkelia žodžius į atskiras eilutes */
+}
+p {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  line-height: 2.3rem;
+  margin-top: 0.5rem;
+  color: rgb(113, 113, 113);
+}
+img {
+  display: block;
+  margin: 4rem auto 3rem auto;
+  width: 15vw;
+  height: 24vh;
+  padding: 3rem;
+  border-radius: 1rem;
+  filter: invert(1);
+  position: relative;
+  z-index: -1;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.random_solid {
+  background-color: #8f3f36;
+}
+.apple_pay {
+  background-color: #bf8b42;
+}
+.user_solid {
+  background-color: #1ea1ba;
+}
+.university_solid {
+  background-color: #6e6e6e;
+}
+.nr {
+  border-radius: 50%;
+  font-size: 1.4rem;
+  padding: 0.5rem 1.2rem;
+  margin-top: 2.2rem;
+  margin-left: 4.5rem;
+  font-weight: bold;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+}
+.one {
+  border: 0.3rem solid #66bfbf;
+  color: #66bfbf;
+}
+.two {
+  border: 0.3rem solid rgba(64, 117, 187, 255);
+  color: rgba(64, 117, 187, 255);
+}
+
+.three {
+  border: 0.3rem solid rgba(224, 94, 70, 255);
+  color: rgba(224, 94, 70, 255);
+}
+.four {
+  border: 0.3rem solid rgb(181, 182, 182);
+  color: rgb(181, 182, 182);
+}
